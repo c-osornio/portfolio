@@ -20,7 +20,7 @@ export const VideoSideBar = ({ playing, mp4, img }) => {
       id="video"
       className="responsive-video"
       controls="controls"
-      autoPlay={true}
+      autoPlay={false}
       poster={img}
     />
   );
