@@ -27,9 +27,7 @@ const About = () => {
         <h2 className="text-center">
           about <span>me</span>
         </h2>
-        <span className="title-head-subtitle">
-          'If you can't figure something out, figure out how to figure it out.' 
-        </span>
+        <span className="title-head-subtitle">If you can&apos;t figure something out, figure out how to figure it out</span>
       </div>
       {/* Main Heading Ends */}
       <div className="container infos">
@@ -117,13 +115,13 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">LinkedIn</span>
-                    <a href="https://www.linkedin.com/in/carlos-osornio/" target="_blank">carlos-osornio</a>
+                    <a href="https://www.linkedin.com/in/carlos-osornio/" target="_blank" rel="noreferrer">carlos-osornio</a>
                   </h6>
                 </li>
                 <li>
                   <h6>
                     <span className="font-weight-600">GitHub</span>
-                    <a href="https://github.com/c-osornio" target="_blank">c-osornio</a>
+                    <a href="https://github.com/c-osornio" target="_blank" rel="noreferrer">c-osornio</a>
                   </h6>
                 </li>
               </ul>
@@ -176,7 +174,7 @@ const About = () => {
                       - Underwrote Fannie Mae and Freddie Mac conforming mortgages and issued VPALS. 
                       </p>
                       <p>
-                      - Graduated Valedictorian through Better Mortgage's Underwriting University Class of 2020. 
+                      - Graduated Valedictorian through Better Mortgage&apos;s Underwriting University Class of 2020. 
                       </p>
                       <p>
                       - Conducted through review of applicants credit reports, calculated all sources of income, and reviewed assets for qualification. 
@@ -212,7 +210,7 @@ const About = () => {
                       -  Collaborated with cross-functional teams, to drive business growth and increase loan volume.
                       </p>
                       <p>
-                      - Provided auto loan consulting to reach clients' financial needs.
+                      - Provided auto loan consulting to reach clients&apos; financial needs.
                       </p>
                     </div>
                   </div>

@@ -251,14 +251,14 @@ const Work = () => {
                 </ul>
                 {
                   work.link ? 
-                  <a href={work.link} className="btn" target="_blank">
+                  <a href={work.link} className="btn" target="_blank" rel="noreferrer">
                   <span>
                     <i className="fa fa-external-link" />
                     preview
                   </span>
                   </a>
                   :
-                  <a href={work.github} className="btn" target="_blank">
+                  <a href={work.github} className="btn" target="_blank" rel="noreferrer">
                   <span>
                     <i className="fa fa-external-link" />
                     View code
