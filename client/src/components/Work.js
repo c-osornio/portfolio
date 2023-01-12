@@ -267,7 +267,7 @@ const Work = () => {
                 }
                 
               </div>
-              <div className="col-6 p-none text-right">
+              <div className="p-none text-left mt-5">
                 <a
                   href="#"
                   className="btn btn-secondary close-project"
