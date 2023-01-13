@@ -33,7 +33,7 @@ const workData = [
     mp4: "img/projects/kringle.mp4"
   },
   {
-    img: "img/projects/petloverIMG.jpg",
+    img: "img/projects/kringleIMG.jpg",
     name: "PetLover",
     format: "video",
     project: "pet adoption website",
@@ -41,8 +41,8 @@ const workData = [
     // duration: "3 MONTHS",
     technologies: "Javascript, Socket.io, React, MongoDB, Mongoose, Express, Node.js, Reusable components",
     // budget: "1550 USD",
-    mp4: "img/projects/petlover.mp4",
-    github: "https://github.com/c-osornio/MERN-Deployment"
+    github: "https://github.com/c-osornio/MERN-Deployment",
+    mp4: "img/projects/petlover.mp4"
   },
   {
     img: "img/projects/househunterIMG.jpg",
@@ -53,8 +53,8 @@ const workData = [
     // duration: "3 MONTHS",
     technologies: "Java, SpringBoot, Spring MVC, Eclipse, Many-to-Many, OOP, Rest Controller, Bootstrap, CSS3, HTML5, MySQL, RegExp, BCrypt",
     // budget: "1550 USD",
-    mp4: "img/projects/househunter.mp4",
-    github: "https://github.com/c-osornio/java_stack/tree/main/Spring/SpringProjects/BeltExam"
+    github: "https://github.com/c-osornio/java_stack/tree/main/Spring/SpringProjects/BeltExam",
+    mp4: "img/projects/househunter.mp4"
   },
   {
     img: "img/projects/magazineIMG.jpg",
@@ -65,8 +65,8 @@ const workData = [
     // duration: "3 MONTHS",
     technologies: "Python, Flask, MySQL, Bootstrap, CSS3, HTML5, RegExp, BCrypt",
     // budget: "1550 USD",
-    mp4: "img/projects/magazine.mp4",
-    github: "https://github.com/c-osornio/deploy_flask"
+    github: "https://github.com/c-osornio/deploy_flask",
+    mp4: "img/projects/magazine.mp4"
   },
   // {
   //   img: "img/projects/easybay.jpg",
@@ -88,8 +88,8 @@ const workData = [
     // duration: "3 MONTHS",
     technologies: "Javascript, React, React Bootstrap, Local Storage, JSON",
     // budget: "1550 USD",
-    mp4: "img/projects/todo.mp4",
-    github: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client"
+    github: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client",
+    mp4: "img/projects/todo.mp4"
   },
   // {
   //   img: "img/projects/project-8.jpg",
@@ -149,7 +149,7 @@ const Work = () => {
                       >
                         <img
                           src={work.img}
-                          alt="Project"
+                          alt={work.name}
                           className="img-fluid"
                           style={{height:250, width:500}}
                         />
