@@ -33,7 +33,7 @@ const workData = [
     mp4: "img/projects/kringle.mp4"
   },
   {
-    img: "img/projects/petloverIMG.jpg",
+    img: "img/projects/petloverIMG.JPG",
     name: "PetLover",
     format: "video",
     project: "pet adoption website",
@@ -45,7 +45,7 @@ const workData = [
     mp4: "img/projects/petlover.mp4"
   },
   {
-    img: "img/projects/househunterIMG.jpg",
+    img: "img/projects/househunterIMG.JPG",
     name: "House Hunter",
     format: "video",
     project: "HOUSE HUNTING WEBSITE",
@@ -57,7 +57,7 @@ const workData = [
     mp4: "img/projects/househunter.mp4"
   },
   {
-    img: "img/projects/magazineIMG.jpg",
+    img: "img/projects/magazineIMG.JPG",
     name: "Magazine and Subscribe",
     format: "video",
     project: "Magazine Subscription Website",
@@ -80,7 +80,7 @@ const workData = [
   //   github: "https://github.com/c-osornio/WebFund-YellowBelt-Exam"
   // },
   {
-    img: "img/projects/todoIMG.jpg",
+    img: "img/projects/todoIMG.JPG",
     name: "Todo List",
     format: "video",
     project: "TODO List Web Application",
