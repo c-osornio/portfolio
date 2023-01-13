@@ -33,7 +33,7 @@ const workData = [
     mp4: "img/projects/kringle.mp4"
   },
   {
-    img: "img/projects/kringleIMG.jpg",
+    img: "img/projects/petloverIMG.jpg",
     name: "PetLover",
     format: "video",
     project: "pet adoption website",
