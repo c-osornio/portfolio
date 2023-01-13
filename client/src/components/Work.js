@@ -42,7 +42,7 @@ const workData = [
     technologies: "Javascript, Socket.io, React, MongoDB, Mongoose, Express, Node.js, Reusable components",
     // budget: "1550 USD",
     mp4: "img/projects/petlover.mp4",
-    link: "https://github.com/c-osornio/MERN-Deployment"
+    github: "https://github.com/c-osornio/MERN-Deployment"
   },
   {
     img: "img/projects/househunterIMG.jpg",
@@ -54,7 +54,7 @@ const workData = [
     technologies: "Java, SpringBoot, Spring MVC, Eclipse, Many-to-Many, OOP, Rest Controller, Bootstrap, CSS3, HTML5, MySQL, RegExp, BCrypt",
     // budget: "1550 USD",
     mp4: "img/projects/househunter.mp4",
-    link: "https://github.com/c-osornio/java_stack/tree/main/Spring/SpringProjects/BeltExam"
+    github: "https://github.com/c-osornio/java_stack/tree/main/Spring/SpringProjects/BeltExam"
   },
   {
     img: "img/projects/magazineIMG.jpg",
@@ -66,7 +66,7 @@ const workData = [
     technologies: "Python, Flask, MySQL, Bootstrap, CSS3, HTML5, RegExp, BCrypt",
     // budget: "1550 USD",
     mp4: "img/projects/magazine.mp4",
-    link: "https://github.com/c-osornio/deploy_flask"
+    github: "https://github.com/c-osornio/deploy_flask"
   },
   // {
   //   img: "img/projects/easybay.jpg",
@@ -89,7 +89,7 @@ const workData = [
     technologies: "Javascript, React, React Bootstrap, Local Storage, JSON",
     // budget: "1550 USD",
     mp4: "img/projects/todo.mp4",
-    link: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client"
+    github: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client"
   },
   // {
   //   img: "img/projects/project-8.jpg",
@@ -249,12 +249,23 @@ const Work = () => {
                     </span>
                   </li> */}
                 </ul>
+                {
+                  work.link ? 
                   <a href={work.link} className="btn" target="_blank" rel="noreferrer">
                   <span>
                     <i className="fa fa-external-link" />
                     preview
                   </span>
                   </a>
+                  :
+                  <a href={work.github} className="btn" target="_blank" rel="noreferrer">
+                  <span>
+                    <i className="fa fa-external-link" />
+                    View code
+                  </span>
+                  </a>
+                }
+                
               </div>
               <div className="p-none text-left mt-5">
                 <a
