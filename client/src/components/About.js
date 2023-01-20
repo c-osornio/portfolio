@@ -381,13 +381,13 @@ const About = () => {
                       <strong>Languages/ Stacks: </strong>Python, Java, JavaScript (MERN), CSS, HTML, SQL
                       </p>
                       <p>
-                      <strong>Frameworks/Libraries:</strong> Flask, React, Redux, EmailJS, Node.js, Mongoose, Express, Socket.io, Spring MVC, Bootstrap, Materialize, Tailwind, SASS/LESS
+                      <strong>Frameworks/Libraries:</strong> Flask, Django, React, Redux, Next.js, EmailJS, Node.js, Mongoose, Express, Socket.io, Spring MVC, Bootstrap, Materialize, Tailwind, SASS/LESS
                       </p>
                       <p>
                       <strong>Databases: </strong>MySQL, MongoDB 
                       </p>
                       <p>
-                      <strong>Cloud: </strong>AWS EC2, Gunicorn, Nginx 
+                      <strong>Cloud: </strong>AWS EC2, Gunicorn, Nginx, Vercel 
                       </p> 
                       <p>
                       <strong>Web Technologies:</strong>  RESTful APIs, RestController, AJAX, Context API, Axios
