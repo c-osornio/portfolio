@@ -56,7 +56,7 @@ const Contact = () => {
             get <span>in touch</span>
           </h2>
           <span className="title-head-subtitle">
-            I’m always open to discussing product design work or partnerships.
+            I’m always open to discussing product design, work, or partnerships.
           </span>
         </div>
         {/* Main Heading Ends */}
