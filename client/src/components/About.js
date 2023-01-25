@@ -369,7 +369,7 @@ const About = () => {
                         Software Development Certificate 
                         <span className="separator" />
                         <span className="font-weight-700">
-                          Coding Dojo (Colorado Technical University)
+                          The Coding Dojo Part of Colorado Technical University
                         </span>
                       </span>
                     </div>
