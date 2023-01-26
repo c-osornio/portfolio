@@ -375,7 +375,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                        <strong>Grade: </strong>Triple Black Belt in Python, Java, and MERN
+                        <strong>Grade: </strong>Triple Black Belt in Python, Java, and JavaScript (MERN)
                       </p>
                       <p>
                       <strong>Languages/ Stacks: </strong>Python, Java, JavaScript (MERN), CSS, HTML, SQL
