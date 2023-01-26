@@ -366,7 +366,7 @@ const About = () => {
                         2022 - 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Software Development Certificate 
+                        Full Stack Software Development Certificate 
                         <span className="separator" />
                         <span className="font-weight-700">
                           The Coding Dojo Part of Colorado Technical University
