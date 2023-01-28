@@ -207,7 +207,7 @@ const About = () => {
                       - Assisted in development and implementation of new lending policies and procedures.
                       </p>
                       <p>
-                      -  Collaborated with cross-functional teams, to drive business growth and increase loan volume.
+                      - Collaborated with cross-functional teams, to drive business growth and increase loan volume.
                       </p>
                       <p>
                       - Provided auto loan consulting to reach clients&apos; financial needs.
