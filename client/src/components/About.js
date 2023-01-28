@@ -210,7 +210,7 @@ const About = () => {
                       - Collaborated with cross-functional teams, to drive business growth and increase loan volume.
                       </p>
                       <p>
-                      - Provided auto loan consulting to reach clients&apos; financial needs.
+                      - Provided auto loan consulting to reach clients&apos; financial goals.
                       </p>
                     </div>
                   </div>
