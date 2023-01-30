@@ -177,7 +177,7 @@ const About = () => {
                       - Graduated Valedictorian through Better Mortgage&apos;s Underwriting University Class of 2020. 
                       </p>
                       <p>
-                      - Conducted thorough reviews of applicants credit reports, calculated all sources of income, and reviewed assets for qualification. 
+                      - Conducted thorough reviews of applicants credit reports, calculated all sources of income, and reviewed assets for loan qualification. 
                       </p>
                       <p>
                       - Analyzed risk and made recommendations to help facilitate/streamline loan process. 
