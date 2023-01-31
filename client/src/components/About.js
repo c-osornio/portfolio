@@ -393,7 +393,7 @@ const About = () => {
                       <strong>Web Technologies:</strong>  RESTful APIs, RestController, AJAX, Context API, Axios
                       </p>  
                       <p>
-                      <strong>Tools: </strong>Git, Github, Agile Methodology, Terminal, GitBash, Powershell, VS Code, SpringBoot, Postman, JSON, Bcrypt, Jinja, JSX, MySQL Workbench, MongoDB Compass/Atlas, OOP, Figma, Balsamiq
+                      <strong>Tools:</strong>Git, Github, Agile Methodology, Terminal, GitBash, Powershell, VS Code, SpringBoot, Postman, JSON, Bcrypt, Jinja, JSX, MySQL Workbench, MongoDB Compass/Atlas, OOP, Figma, Balsamiq
                       </p>
                     </div>
                   </div>
