@@ -210,7 +210,37 @@ const About = () => {
                       - Collaborated with cross-functional teams, to drive business growth and increase loan volume.
                       </p>
                       <p>
-                      - Provided auto loan consulting to reach clients&apos; financial goals.
+                      - Utilized technical skills and software to manage loan applications to ensure compliance with industry regulations and guidelines, demonstrating attention to detail and strong problem-solving skills.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                                {/* Item Starts */}
+                                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        2012 - 2015
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        IT Consultant
+                        <span className="separator" />
+                        <span className="font-weight-700">IrvineWebWorks, Inc</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                    <p>
+                      - Utilized JIRA to manage and track IT issues and projects, including creating and assigning tickets, monitoring progress, and ensuring timely resolution.
+                      </p>
+                      <p>
+                      - Configured and maintained hardware and software systems, including servers, desktops, laptops, printers, and mobile devices, ensuring that they were optimized for performance and security.
+                      </p>
+                      <p>
+                      - Demonstrated strong problem-solving and analytical skills with the ability to troubleshoot and resolve technical issues in a timely manner.
                       </p>
                     </div>
                   </div>
