@@ -385,6 +385,32 @@ const About = () => {
                 Education
               </h2>
               <div className="resume-items">
+                                {/* Item Starts */}
+                  <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        March 2023
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        Certified Scrum Master
+                        <span className="separator" />
+                        <span className="font-weight-700">
+                          Scrum Alliance
+                        </span>
+                      </span>
+                    </div>
+                    <div className="card-body" >
+                      <p>
+                        ID: 001498283 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
                 {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
@@ -393,7 +419,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2022 - 2023
+                        Jan 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         Full Stack Software Development Certificate 
