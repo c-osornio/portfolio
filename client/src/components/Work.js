@@ -9,6 +9,18 @@ import {
 
 const workData = [
   {
+    img: "img/projects/sabai.jpg",
+    name: "Sabai Haus",
+    format: "video",
+    project: "Short Term Rentals Homepage",
+    client: "Sabai Haus",
+    // duration: "1 MONTH",
+    technologies: "JavaScript, React, Next.Js, SASS" ,
+    // budget: "1550 USD",
+    link: "http://sabaihaus.com",
+    mp4: "img/projects/sabai.mp4"
+  },
+  {
     img: "img/projects/just4kicksIMG.jpg",
     name: "Just4Kicks",
     format: "video",
@@ -79,18 +91,18 @@ const workData = [
   //   // budget: "1550 USD",
   //   github: "https://github.com/c-osornio/WebFund-YellowBelt-Exam"
   // },
-  {
-    img: "img/projects/todoIMG.JPG",
-    name: "Todo List",
-    format: "video",
-    project: "TODO List Web Application",
-    client: "Solo Project",
-    // duration: "3 MONTHS",
-    technologies: "Javascript, React, React Bootstrap, Local Storage, JSON",
-    // budget: "1550 USD",
-    github: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client",
-    mp4: "img/projects/todo.mp4"
-  },
+  // {
+  //   img: "img/projects/todoIMG.JPG",
+  //   name: "Todo List",
+  //   format: "video",
+  //   project: "TODO List Web Application",
+  //   client: "Solo Project",
+  //   // duration: "3 MONTHS",
+  //   technologies: "Javascript, React, React Bootstrap, Local Storage, JSON",
+  //   // budget: "1550 USD",
+  //   github: "https://github.com/c-osornio/MERN_stack/tree/main/React/TodoList/client",
+  //   mp4: "img/projects/todo.mp4"
+  // },
   // {
   //   img: "img/projects/project-8.jpg",
   //   name: "Image Format",
