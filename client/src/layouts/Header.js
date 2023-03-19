@@ -1,6 +1,5 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState, useRef } from "react";
 import NavContext from "../context/navContext";
-import useClickOutside from "../useClickOutside";
 import useWindowSize from "../useWindowSize";
 
 const menus = [
@@ -35,9 +34,18 @@ const Header = ({ light }) => {
   const { width } = useWindowSize();
 
   // outside click
-  let domNode = useClickOutside(() => {
-    setToggle(false);
-  });
+  const domNode = useRef();
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (domNode.current && !domNode.current.contains(event.target)) {
+        setToggle(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [domNode]);
 
   return (
     <header id="header">
@@ -71,7 +79,7 @@ const Header = ({ light }) => {
       <div
         ref={domNode}
         className={`cd-stretchy-nav ${toggle ? "nav-is-visible" : ""} ${
-          light ? nav == "home" && "lighter" : ""
+          light ? nav === "home" && "lighter" : ""
         }`}
       >
         <a
@@ -83,7 +91,7 @@ const Header = ({ light }) => {
         </a>
         <ul className="stretchy-nav">
           {menus.map((menu, i) => (
-            <li className={nav == menu.id ? "active" : ""} key={i}>
+            <li className={nav === menu.id ? "active" : ""} key={i}>
               <a
                 href={`#${menu.id}`}
                 onClick={() => {
