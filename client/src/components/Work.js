@@ -9,7 +9,7 @@ import {
 
 const workData = [
   {
-    img: "img/projects/sabai.jpg",
+    img: "img/projects/sabai.JPG",
     name: "Sabai Haus",
     format: "video",
     project: "Short Term Rentals Homepage",
