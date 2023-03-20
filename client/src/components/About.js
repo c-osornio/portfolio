@@ -42,9 +42,9 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-            {`I'm`} a web developer based in Anaheim,
+            {`I'm`} a freelance full-stack developer based in Anaheim,
             California. I strive to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design. 
+            through carefully crafted code and user-centric design. Check out my portfolio!
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
@@ -59,7 +59,7 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Last Name</span>
-                    Osornio
+                    Osornio Enriquez
                   </h6>
                 </li>
                 {/* <li>
