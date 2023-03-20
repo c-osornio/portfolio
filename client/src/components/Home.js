@@ -36,9 +36,9 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a web developer based in Anaheim,
-            California. I strive to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design. 
+            {`I'm`} a freelance web developer based in Anaheim,
+            CA. I strive to build immersive and beautiful web applications
+            through carefully crafted code and user-centric design. Check out my work!
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">

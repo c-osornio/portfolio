@@ -15,7 +15,7 @@ const PreLoader = () => {
         <div id="progress-line-container">
           <div className="progress-line" />
         </div>
-        <h1>osornio</h1>
+        <h1>osornio enriquez</h1>
       </div>
     </div>
   );

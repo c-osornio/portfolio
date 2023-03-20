@@ -42,9 +42,9 @@ const About = () => {
               />
             </div>
             <p className="d-block d-md-none">
-            {`I'm`} a freelance full-stack developer based in Anaheim,
-            California. I strive to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design. Check out my portfolio!
+            {`I'm`} a freelance web developer based in Anaheim,
+            CA. I strive to build immersive and beautiful web applications
+            through carefully crafted code and user-centric design. Check out my work!
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">

@@ -128,9 +128,8 @@ const Contact = () => {
             {/* Contact Form Starts */}
             <div className="col-12 col-md-8 col-xl-8 rightside">
               <p>
-                If you have any suggestion, project or even you want to say
-                Hello.. please fill out the form below and I will reply you
-                shortly.
+                If you would like to get in touch, please fill out the form below and I will reply you
+                as soon as I can. Thank you!
               </p>
               <form className="contactform" onSubmit={(e) => onSubmit(e)}>
                 <div className="row">
