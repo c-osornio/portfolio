@@ -393,7 +393,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        October 2024
+                        Class of 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                         BS, BUSINESS ADMINISTRATION
@@ -402,6 +402,11 @@ const About = () => {
                         MANAGEMENT INFO. SYSTEMS
                         </span>
                       </span>
+                    </div>
+                    <div className="card-body" >
+                      <p>
+                        Southern New Hampshire University
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -494,11 +499,7 @@ const About = () => {
                         </span>
                       </span>
                     </div>
-                    <div className="card-body" >
-                      <p>
-                        Fullerton, CA
-                      </p>
-                    </div>
+                    
                   </div>
                 </div>
                 {/* Item Ends */}
