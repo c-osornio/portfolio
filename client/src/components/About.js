@@ -399,7 +399,7 @@ const About = () => {
                         BS, BUSINESS ADMINISTRATION
                         <span className="separator" />
                         <span className="font-weight-700">
-                        MANAGEMENT INFORMATION SYSTEMS
+                        MANAGEMENT INFO. SYSTEMS
                         </span>
                       </span>
                     </div>
