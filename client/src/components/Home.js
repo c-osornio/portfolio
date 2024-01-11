@@ -36,9 +36,7 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           <h3>Hi there !</h3>
           <AnimationText />
           <p>
-            {`I'm`} a freelance web developer based in Anaheim,
-            CA. I strive to build immersive and beautiful web applications
-            through carefully crafted code and user-centric design. Check out my work!
+            {`I'm`} a versatile freelance software engineer and data analyst based in Anaheim, CA. With a passion for crafting immersive web applications, I bring together precise code and user-centric design. My expertise extends to data analysis, ensuring meaningful insights drive my development process. Check out my portfolio for a showcase of my proficiency in both web development and data analytics!
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">
