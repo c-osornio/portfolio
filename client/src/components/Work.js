@@ -29,7 +29,8 @@ const workData = [
     // duration: "1 MONTH",
     technologies: "JavaScript, React, MongoDB, Mongoose, Express, Node.js, Redux, PayPal API, 3rd Party RapidAPI, Tailwind, Bcrypt, Axios, Git, GitHub, AWS EC2" ,
     // budget: "1550 USD",
-    link: "http://just4kicks.cosornio.com",
+    github: "https://github.com/Coding-Dojo-Group-3/jocs",
+    // link: "http://just4kicks.cosornio.com",
     mp4: "img/projects/just4kicks.mp4"
   },
   {
@@ -41,7 +42,8 @@ const workData = [
     // duration: "3 MONTHS",
     technologies: "JavaScript, React, MongoDB, Mongoose, Express, Node.js, UseContext, UseReducer, React Bootstrap, Bcrypt, Axios, Git, GitHub, AWS EC2" ,
     // budget: "1550 USD",
-    link: "http://kringle.cosornio.com",
+    github: "https://github.com/c-osornio/SecretSanta-MERN",
+    // link: "http://kringle.cosornio.com",
     mp4: "img/projects/kringle.mp4"
   },
   {
