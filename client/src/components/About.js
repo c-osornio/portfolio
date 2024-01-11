@@ -385,6 +385,27 @@ const About = () => {
                 Education
               </h2>
               <div className="resume-items">
+                                                {/* Item Starts */}
+              <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        October 2024
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        BS, BUSINESS ADMINISTRATION
+                        <span className="separator" />
+                        <span className="font-weight-700">
+                        MANAGEMENT INFORMATION SYSTEMS
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
                                 {/* Item Starts */}
                   <div className="item">
                   <span className="bullet" />
